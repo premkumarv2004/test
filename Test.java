@@ -25,11 +25,20 @@ public class Test {
     System.out.println("The multiplcation result is: " +result2);
     
   }
+  static void div(){
+
+    int r=5;
+    int s=8;
+    int result3 = x/y;
+    System.out.println("The multiplcation result is: " +result3);
+  }
+    
 
   public static void main(String[] args)
   {
     add();
     sub();
     multi();
+    div();
   }
 }
